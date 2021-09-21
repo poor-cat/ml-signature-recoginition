@@ -70,7 +70,6 @@ print(len(y_all))
 
 
 
-
 X_all = np.ndarray((len(files), ROWS, COLS, CHANNELS), dtype=np.uint8)
 
 for i, im in enumerate(files): 
