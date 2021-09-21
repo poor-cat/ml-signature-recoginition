@@ -137,6 +137,7 @@ adam = Adam(lr=0.0001)
 model.compile(optimizer=adam, loss=root_mean_squared_error)
 
 
+
 early_stopping = EarlyStopping(monitor='val_loss', patience=4, verbose=1, mode='auto')        
        
 model.fit(X_train, y_train, batch_size=64, nb_epoch=3,
