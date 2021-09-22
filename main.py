@@ -149,6 +149,7 @@ print("Validation Log Loss: {}".format(log_loss(y_valid, preds)))
 
 
 
+
 test_files = [im for im in os.listdir(TEST_DIR)]
 test = np.ndarray((len(test_files), ROWS, COLS, CHANNELS), dtype=np.uint8)
 
