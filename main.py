@@ -51,6 +51,7 @@ def read_image(src):
     im=misc.imread(filepath)
     import scipy.misc  as mc
      
+        
     return mc.imresize(im,(ROWS,COLS))
 
 files = []
